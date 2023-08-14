@@ -7,39 +7,48 @@
             "data": {
                 "2": {
                     "home": "SM Cean",
-                    "away": "FC. pau"
+                    "away": "FC. Pau",
+                    "score": "2-0"
                 },
                 "53": {
                     "home": "GF38",
-                    "away": "Paris FC"
+                    "away": "Paris FC",
+                    "score": "2-0"
                 },
                 "121.3": {
                     "home": "AJ. Auxerre",
-                    "away": "Amiens"
+                    "away": "Amiens",
+                    "score": "0-1"
                 },
                 "180": {
                     "home": "SC. Bastia",
-                    "away": "Valencienne"
+                    "away": "Valencienne",
+                    "score": "3-0"
                 },
                 "250": {
                     "home": "ESTAC",
-                    "away": "Stade Lavalois"
+                    "away": "Stade Lavalois",
+                    "score": "3-1"
                 },
                 "333.6": {
                     "home": "Rodez",
-                    "away": "ASSE"
+                    "away": "ASSE",
+                    "score": "2-1"
                 },
                 "393": {
                     "home": "QRM",
-                    "away": "Ajaccio"
+                    "away": "Ajaccio",
+                    "score": "0-1"
                 },
                 "430": {
                     "home": "EA Guingamp",
-                    "away": "US Dunkerque"
+                    "away": "US Dunkerque",
+                    "score": "0-1"
                 },
                 "480.3": {
                     "home": "Angers",
-                    "away": "Annecy"
+                    "away": "Annecy",
+                    "score": "0-0"
                 }
             }
         }
