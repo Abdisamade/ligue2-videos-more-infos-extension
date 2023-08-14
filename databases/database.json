@@ -4,6 +4,8 @@
             "season": "2023-2024",
             "day": 2,
             "full": false,
+            "st": 0,
+            "et": 520,
             "data": {
                 "2": {
                     "home": "SM Cean",

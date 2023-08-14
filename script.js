@@ -48,9 +48,14 @@ function data_loaded(database) {
 
     function checkTimecode() {
         const tc = getTimecode();
-        const data = findDataForTimecode(vid_data["data"], tc);
-        if (data) {
-            overlayDiv.innerHTML = template.format(data["home"], data["away"], data["score"]);
+        
+        if(tc >= vid_data["et"]){
+            overlayDiv.innerHTML = "";
+        } else {
+            const data = findDataForTimecode(vid_data["data"], tc);
+            if (data) {
+                overlayDiv.innerHTML = template.format(data["home"], data["away"], data["score"]);
+            }
         }
     }
 
