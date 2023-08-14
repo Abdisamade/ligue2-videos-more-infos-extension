@@ -33,7 +33,7 @@ function data_loaded(database) {
     overlayDiv.style.top = '80px';
     overlayDiv.style.left = '30px';
     overlayDiv.style.width = '25%';
-    overlayDiv.style.height = '50px';
+    // overlayDiv.style.height = '50px';
     overlayDiv.style.background = 'rgba(0, 0, 0, 0.5)';
     overlayDiv.style.zIndex = '9999';
     overlayDiv.innerHTML = '';
@@ -68,7 +68,7 @@ function data_loaded(database) {
 
             while (left <= right) {
                 const mid = Math.floor((left + right) / 2);
-                if (parseFloat(dataK[mid]) < timecode) {
+                if (parseInt(dataK[mid]) < timecode) {
                     result = data[dataK[mid]];
                     left = mid + 1;
                 } else {
