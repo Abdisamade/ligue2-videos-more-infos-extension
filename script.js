@@ -33,7 +33,6 @@ function data_loaded(database) {
     overlayDiv.style.top = '80px';
     overlayDiv.style.left = '30px';
     overlayDiv.style.width = '25%';
-    // overlayDiv.style.height = '50px';
     overlayDiv.style.background = 'rgba(0, 0, 0, 0.5)';
     overlayDiv.style.zIndex = '9999';
     overlayDiv.innerHTML = '';
@@ -48,15 +47,15 @@ function data_loaded(database) {
 
     function checkTimecode() {
         const tc = getTimecode();
-        
-        if(tc >= vid_data["et"]){
-            overlayDiv.innerHTML = "";
-        } else {
+        console.log(vid_data);
+        // if(tc >= vid_data["et"]){
+            // overlayDiv.innerHTML = "";
+        // } else {
             const data = findDataForTimecode(vid_data["data"], tc);
             if (data) {
                 overlayDiv.innerHTML = template.format(data["home"], data["away"], data["score"]);
             }
-        }
+        // }
     }
 
     function getTimecode() {
