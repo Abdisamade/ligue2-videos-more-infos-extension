@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Better Ligue 2 video",
+  "description": "apporte des fonctionnalités longtemps souhaité par la communauté sous les vidéos youtube de la chaine Ligue 2",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+        "matches": ["*://www.youtube.com/watch?v=*"],
+        "js": ["script.js"]
+    }
+  ]
+}
